@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Setup node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.1.4
         with:
           node-version: '12.x'
       - name: Set yarn cache directory path
@@ -33,7 +33,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Setup node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.1.4
         with:
           node-version: '12.x'
       - name: Set yarn cache directory path
@@ -60,7 +60,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Setup node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.1.4
         with:
           node-version: '12.x'
       - name: Set yarn cache directory path
@@ -87,7 +87,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Setup node.js for GitHub Packages
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.1.4
         with:
           node-version: '12.x'
           registry-url: 'https://npm.pkg.github.com'
@@ -117,7 +117,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Setup node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.1.4
         with:
           node-version: '12.x'
       - name: Set yarn cache directory path
@@ -145,7 +145,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Setup node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.1.4
         with:
           node-version: '12.x'
       - name: Set yarn cache directory path
